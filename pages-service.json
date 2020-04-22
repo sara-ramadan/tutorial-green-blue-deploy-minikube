@@ -2,9 +2,9 @@
    "kind":"Service",
    "apiVersion":"v1",
    "metadata":{
-      "name":"bluegreenlb",
+      "name":"pageslb",
       "labels":{
-         "app":"bluegreenlb"
+         "app":"pageslb"
       }
    },
    "spec":{
@@ -15,7 +15,7 @@
          }
       ],
       "selector":{
-         "app":"green"
+         "app":"page1"
       },
       "type": "LoadBalancer"
    }
